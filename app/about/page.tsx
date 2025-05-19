@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div className="container mx-auto px-4 py-8 max-w-3xl">
       <h1 className="text-4xl font-bold mb-6">About</h1>
-      <div className="prose prose-lg max-w-none">
+      <div className="prose-lg max-w-none">
         <p>
           Welcome to my blog! This is a statically generated blog built with Next.js. I write about various topics that
           interest me.

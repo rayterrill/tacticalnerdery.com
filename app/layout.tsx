@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className="dark">
       <body className={inter.className}>
         <header className="border-b">
           <div className="container mx-auto px-4 py-4 flex justify-between items-center">

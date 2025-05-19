@@ -20,7 +20,7 @@ console.log(\`Factorial of 5 is \{result}\`); // Output: Factorial of 5 is 120
   return (
     <div className="container mx-auto px-4 py-8 max-w-3xl">
       <h1 className="text-4xl font-bold mb-6">AWS Notes</h1>
-      <div className="prose prose-lg max-w-none">
+      <div className="prose-lg max-w-none">
         <h2>AWS SSO</h2>
         <h3>Configure your ~/.aws/config</h3>
         <SyntaxHighlighter
