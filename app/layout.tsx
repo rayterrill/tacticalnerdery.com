@@ -7,9 +7,8 @@ import Link from "next/link"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Next.js Blog",
-  description: "A statically generated blog built with Next.js",
-    generator: 'v0.dev'
+  title: "Tactical Nerdery",
+  description: "A site about learnings and experiments trying to navigate the world of technology",
 }
 
 export default function RootLayout({
@@ -23,7 +22,7 @@ export default function RootLayout({
         <header className="border-b">
           <div className="container mx-auto px-4 py-4 flex justify-between items-center">
             <Link href="/" className="text-xl font-bold">
-              My Blog
+              Tactical Nerdery
             </Link>
             <nav>
               <ul className="flex gap-4">
@@ -35,6 +34,11 @@ export default function RootLayout({
                 <li>
                   <Link href="/about" className="hover:text-blue-600 transition-colors">
                     About
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/aws" className="hover:text-blue-600 transition-colors">
+                    AWS
                   </Link>
                 </li>
                 <li>
