@@ -2,7 +2,7 @@
 title: 'Configuring Hashicorp Vault with External Secrets on AWS EKS'
 date: '2023-05-22T00:00:00.000Z'
 excerpt: 'Notes for configuring hashicorp vault with the external-secrets operator on AWS EKS'
-coverImage: '/heart-lock.jpg?height=600&width=1200&text=Lock'
+coverImage: 'https://www.rayterrill.com/tacticalnerdery.com/heart-lock.jpg?height=600&width=1200&text=Lock'
 ---
 
 # Configuring Hashicorp Vault with External Secrets on AWS EKS
